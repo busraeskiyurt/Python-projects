@@ -1,5 +1,5 @@
 
-
+# toplama fonksiyonu
 def topla():
     
     sayi1 = int(input(" Sayı1: "))

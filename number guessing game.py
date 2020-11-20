@@ -1,12 +1,14 @@
-import random
+
+
+import random       # random kütüphanesini yüklüyor.
  print(--------------------------------------------)
  print(          SAYI TAHMİN OYUNU       )
  print(--------------------------------------------)
-rastgeleSayi = random.randint(1, 100)
+rastgeleSayi = random.randint(1, 100)            # 1 ile 100 arasına rastgele syı seçiyor.
 
 tahminSayi = 0
  
-while True:
+while True:                     
         
     sayi = int(input("1 ile 100 arasında bir sayı giriniz. (Oyundan Çıkmak için 0):"))    # input ile kullanıcıdan 1 ile 100 arasında bir sayı istenecek.
     
